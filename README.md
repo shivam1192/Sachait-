@@ -1,2 +1,13 @@
-# Sachait-
-An online platform for analysing the attentiveness and behaviour of the student by using real-time Feedback using Charts and Alert systems,
+# Sachait
+
+## Problem Statement:
+As we all know, the current pandemic time hit our education system. Almost every college, school, or office in the world switches their working platform online (whether it is Google meet or zoom). Such that, Online learning environments have grown in popularity and application in educational settings. But according to various surveys, not all students pay that much attention as they pay during offline classes, right. So monitoring a student while they are in a video conferencing classroom is a necessary term for faculty to understand the students' behavior. Thus understanding such behavior may lead faculty to understand and consequently improving the dynamics of a lecture. According to the research, about 56% of students switch their online classroom in a back tab while surfing over youtube or Instagram. We are in a need of such an online platform which will measure the attentiveness of student in a statistical method.
+
+## Solution:
+After understanding the problem statement, it is clear that we are in need of having an online platform that analyzes the attentiveness of the student during the lecture. We will try to solve this problem by making an online platform for measuring the attentiveness and behavior of the student. We will also try to provide detailed data in the form of a pie chart to both student and teacher, once the classroom end, so as to understand the students' behavior and consequently improving the dynamics of a lecture. We will try to embed our own video conferencing platform using WebRTC. 
+
+## How does it work?
+We will try to make it analysis-oriented by using its technologies like Facial Detection using Deep Learning, real-time Feedback using Charts and Alert systems, etc. We are also creating a summary at the end of the video lecture, both for the teacher's and the students' sides. At the end of the session, based on the data received by the ML model, we can show the general attentiveness of all the students in the class to the teacher, highlighting the duration of the lecture where the students felt the most boredom or where most students had doubts, giving the lecturer an analysis on his/her performance and helping him in further improving the course. On the Students' side, he/she would receive feedback about his/her own concentration for the whole duration. Besides these features, the students and teachers, both would have a dashboard - where their past performance would be stored, and also, they can add a to-do list for them to finish for a particular day.
+
+## Impact
+After understanding the solution, It is clear that students will focus more on their online classroom. Also, the faculty will improvise over their dynamic of the lecture. Detailed analysis surely improvises students' attention and behavior over the online classroom.
