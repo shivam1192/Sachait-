@@ -26,7 +26,68 @@
 
 <body>
     <!-- <article> -->
-       Index file
+        <div class="visible">
+        <img src="https://i.ibb.co/GkFgdzy/Female-journalist-with-microphone-interviewing-man-isolated-flat-vector-illustration-Camera-crew-sho.jpg" class="rounded mx-auto d-block">
+        <div class="container visible">
+            <div class="row">
+              <div class="col-lg-6 col-sm-4">
+                <div class="card" style="border-color:green; background-color: lavender;">
+                  <div class="card-body text-center">
+                      <h1  style="text-align:center; color: green;"><b>Broadcast Name</b><h1>  <br>
+                    <input type="text" class="form-control" id="conference-name" placeholder="Enter Your Broadcast Name"><br>
+                    <button id="start-conferencing" class="btn btn-success">New Broadcast</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-4">
+                <div class="card" style="border-color:green; background-color: lavender;">
+                    <div class="card-body text-center">
+                        <h1  style="text-align:center; color: green;"><b>Join Room</b><h1>  <br>
+               <br>
+                <table id="rooms-list" class="visible"  style="text-align:center; color: green;"></table>
+                </div></div>
+
+              </div>
+            </div>
+
+            </div>
+            </div>
+            </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        
+        <div style="background-color: honeydew;">
+
+        <div id="participants"></div>
+        
+        <div id="students" style="color: black;">
+            <div></div>
+        </div>
+        <canvas id="myChart" style="margin-left: 12px;"></canvas>
+        <div id="livestatus" style="background-color: honeydew;">
+        </div>
+        <button id="close">Close</button>
+        </div>
+
+        <script src="static/chart.js"></script>
+        <script src="static/jquery.slim.min.js"></script>
+        <script src="static/adapter-latest.js"></script>
+        <script src="static/socket.io.js"> </script>
+        <script src="static/RTCPeerConnection-v1.5.js"> </script>
+        <script src="static/broadcast.js"> </script>
+        <script src="static/broadcast-ui.js"> </script>
+        <script src="static/file.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
+
+
+    <!-- </article> -->
+
 </body>
 
 </html>
