@@ -1,0 +1,26 @@
+.main{
+  display: grid;
+  width: 100vw;
+  height: 38rem;
+  grid-template-columns: 2fr 8fr 2fr;
+  border-bottom: 5px solid rgba(38, 142, 160, 0.513);
+  background-color: black;
+  color: white;
+}
+.center{
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+.text{
+  margin-top: 6rem;
+}
+
+.image{
+  height: 38rem;
+  width: 650px;
+  object-fit: contain;
+  margin-top: 3rem;
+  padding-left: 1.5rem;
+}
